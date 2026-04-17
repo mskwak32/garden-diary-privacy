@@ -1,3 +1,9 @@
+---
+layout: default
+title: Garden Diary Privacy Policy
+lang: en
+---
+
 # Garden Diary Privacy Policy
 
 **Effective Date: March 21, 2026**

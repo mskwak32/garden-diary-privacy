@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
+  <title>Garden Diary Privacy Policy</title>
   <script>
-    const lang = navigator.language || '';
+    const languages = navigator.languages || [navigator.language || ''];
+    const lang = languages.map((value) => value.toLowerCase()).find((value) => {
+      return value.startsWith('ja') || value.startsWith('ko') || value.startsWith('en');
+    }) || 'en';
+
     if (lang.startsWith('ja')) {
       location.replace('./ja/');
     } else if (lang.startsWith('ko')) {
